@@ -1,10 +1,11 @@
 import React from "react"
+import { Layout } from "../components"
 
 const BlogPage = () => (
-  <section>
-    <h1>Blog</h1>
-    <p>Posts will show up here later on.</p>
-  </section>
+    <Layout>
+        <h1>Blog</h1>
+        <p>Posts will show up here later on.</p>
+    </Layout>
 )
 
 export default BlogPage
