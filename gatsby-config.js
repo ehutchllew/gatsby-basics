@@ -15,6 +15,7 @@ module.exports = {
             },
             resolve: "gatsby-source-filesystem",
         },
+        "gatsby-transformer-remark",
     ],
     siteMetadata: {
         title: "Gatsby Basics",
